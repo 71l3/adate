@@ -1,0 +1,80 @@
+.fotbody {
+		width: 85%;
+		position: absolute;
+		height: 100%;
+		/* background-color: #b8b8b8; */
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.fot_top {
+		display: flex;
+		margin-bottom: 15px;
+	}
+
+
+	.ft1 {
+		flex-wrap: nowrap;
+		width: 25%;
+		/* height: ; */
+	}
+
+	.ft1 a {
+		width: 50%;
+		font-size: 15px;
+		display: block;
+		margin-bottom: 6px;
+		color: #d8d8d8;
+	}
+
+	.ft1 a:hover {
+		color: #535353;
+	}
+
+	.fotnav {
+		height: 10px;
+		width: 80%;
+
+		border-bottom: 1px solid #848484;
+	}
+
+	.fot_top .fot_a {
+		color: #fafafa;
+	}
+
+	.fot_b1 {
+		width: 100%;
+		height: 30px;
+	}
+
+	.fot_b1 a {
+		color: #fff;
+	}
+
+	.fot_b1 a:hover {
+		color: #ffffff;
+	}
+
+	.fl{
+		position: absolute;
+		display: block;
+		margin-top: 15px;
+		width: 300px;
+	}
+
+	.fotb1_right {
+		width: 500px;
+		float: right;
+	}
+
+	.fotb1_right li {
+
+		float: left;
+		margin-right: 10px;
+	}
+
+.fotb1_right a:hover{
+	color: #848484;
+}
+
+	/* .fot_b2 {} */

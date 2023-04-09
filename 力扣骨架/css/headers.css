@@ -1,0 +1,121 @@
+
+/* 导航栏内容 */
+
+.header {
+	display: flex;
+	flex-wrap: nowrap;
+	box-shadow: 0 0 5px 1px #999
+}
+
+.nav_ul1 {
+
+	display: flex;
+	flex-wrap: nowrap;
+}
+.logo {
+	display: inline-block;
+	margin-left: 140px;
+	margin-top: 15px;
+}
+.nav_left .nav_ul1 .nav_li1 {
+
+	width: 40px;
+	height: 25px;
+	padding-left: 25px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color:#5c5c5c;
+}
+
+.h {
+	margin-top: 15px;
+	margin-left: 10px;
+	width: 0px;
+	height: 0px;
+	border: 6px solid transparent;
+	border-top-color: #fea019;
+	
+}
+.h_li1{
+	display: flex;
+	flex-wrap:nowrap;
+}
+	
+.h_ul {
+	margin: 0;
+	padding: 0;
+}
+
+.h_ul li{
+	position:relative;
+	padding: 10px;
+	z-index: 1;
+	left: -50px;
+	top: 40px;
+	background-color: #fff;
+	color: #fea019;
+}
+.h_ul{
+	display: none;
+}
+
+.h_li1:hover .h_ul{
+	display: block;
+}
+
+.c {
+	width: 100px;
+	text-align: center;
+	padding-top: 10px;
+	background-color: #fff;
+}
+
+.h_li:hover {
+	
+	background-color: #9c9c9c;
+}
+
+
+.nav_li1 a:hover {
+	color: #262626;
+}
+
+.nav_right {
+	display: flex;
+	flex-wrap: nowrap;
+	position: absolute;
+	right: 0;
+}
+.nav_right .vip1 {
+	border-color: #007aff;
+	background-color: #f7fbff;
+}
+
+.nav_right .vip,
+.vip1 {
+	margin-right: 20px;
+	margin-top: 15px;
+}
+.sr,sr1 {
+	margin-right: 140px;
+	margin-top: 15px;
+	color:#8c8c8c ;
+}
+
+.vip,
+.vip1,
+.sr {
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+
+.vip,
+.vip1,
+.sr a:hover {
+	color: #262626;
+}
+
+

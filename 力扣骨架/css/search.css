@@ -1,0 +1,12 @@
+.sousuo{
+  position: relative;
+	top: 10px;
+	left: 1%;
+  width: 270px;
+  height: 46px;
+  border-radius: 12px;
+  /* background-color:pink ; */
+}
+input :focus {
+  color: blue;
+}
